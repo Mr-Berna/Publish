@@ -39,11 +39,11 @@
       },
       {
         "package": "Plot",
-        "repositoryURL": "https://github.com/johnsundell/plot.git",
+        "repositoryURL": "https://github.com/Mr-Berna/Plot.git",
         "state": {
-          "branch": null,
-          "revision": "80612b34252188edbef280e5375e2fc5249ac770",
-          "version": "0.9.0"
+          "branch": "main",
+          "revision": "431c27c9ac97f8bcf6047b5bdbaef91b95a5330b",
+          "version": null
         }
       },
       {
