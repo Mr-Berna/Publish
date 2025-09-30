@@ -52,7 +52,6 @@ public extension Node where Context == HTML.DocumentContext {
             .url(site.url(for: location)),
             .title(title),
             .description(description),
-            .twitterCardType(location.imagePath == nil ? .summary : .summaryLargeImage),
             .forEach(stylesheetPaths, { .stylesheet($0) }),
             .viewport(.accordingToDevice),
             .unwrap(site.favicon, { .favicon($0) }),
