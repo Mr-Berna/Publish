@@ -19,7 +19,7 @@ let package = Package(
         .package(
             name: "Ink",
             url: "https://github.com/Mr-Berna/ink.git",
-            from: "0.2.0"
+            branch: "main"
         ),
         .package(
             name: "Plot",
